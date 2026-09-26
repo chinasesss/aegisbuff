@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #121317;
+  --color-surface-dim: #121317;
+  --color-surface-bright: #38393e;
+  --color-surface-container-lowest: #0d0e12;
+  --color-surface-container-low: #1a1b20;
+  --color-surface-container: #1f1f24;
+  --color-surface-container-high: #292a2e;
+  --color-surface-container-highest: #343439;
+  --color-on-surface: #e3e2e8;
+  --color-on-surface-variant: #e7bcbb;
+  --color-primary: #ffb3b1;
+  --color-primary-container: #ff525b;
+  --color-on-primary: #680011;
+  --color-on-primary-container: #5b000e;
+  --color-primary-fixed-dim: #ffb3b1;
+  --color-primary-fixed: #ffdad8;
+  --color-on-primary-fixed: #410007;
+  --color-on-primary-fixed-variant: #92001d;
+  --color-secondary: #ffc640;
+  --color-secondary-container: #e3aa00;
+  --color-on-secondary: #402d00;
+  --color-secondary-fixed: #ffdf9f;
+  --color-secondary-fixed-dim: #f9bd22;
+  --color-tertiary: #89ceff;
+  --color-tertiary-container: #009ada;
+  --color-on-tertiary: #00344d;
+  --color-tertiary-fixed: #c9e6ff;
+  --color-tertiary-fixed-dim: #89ceff;
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error: #690005;
+  --color-on-error-container: #ffdad6;
+  --color-outline: #ae8786;
+  --color-outline-variant: #5d3f3e;
+
+  --font-headline-xl: "Space Grotesk", sans-serif;
+  --font-headline-lg: "Space Grotesk", sans-serif;
+  --font-headline-md: "Space Grotesk", sans-serif;
+  --font-headline-sm: "Space Grotesk", sans-serif;
+  --font-body-lg: "Inter", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+  --font-body-sm: "Inter", sans-serif;
+  --font-label-header: "Space Grotesk", sans-serif;
+  --font-label-mono: "JetBrains Mono", monospace;
+  --font-data-metric-lg: "JetBrains Mono", monospace;
+  --font-data-metric-md: "JetBrains Mono", monospace;
+  --font-data-metric-sm: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    background-color: #121317;
+    color: #e3e2e8;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0e12;
+}
+::-webkit-scrollbar-thumb {
+  background: #292a2e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #343439;
+}
+

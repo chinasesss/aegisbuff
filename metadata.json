@@ -1,0 +1,6 @@
+{
+  "name": "AegisBuff - Dota 2 Pro Analytics & Telemetry",
+  "description": "Next-generation competitive intelligence, real-time telemetry, hero counter matrices, and AI tactical coaching for Dota 2.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
